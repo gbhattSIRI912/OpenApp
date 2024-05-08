@@ -21,6 +21,7 @@ struct CustomTabView: View {
                         .font(.caption)
                 }
             }
+            
             .foregroundColor(Color.black.opacity(self.index == 0 ? 1 : 0.2))
             .offset(x: 10)
             Spacer(minLength: 0)
